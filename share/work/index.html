@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="崔武杰个人栈" />
+    <meta name="description" content="崔武杰个人栈" />
+    <meta name="author" content="cwjie" />
+    <link rel="stylesheet" href="../../css/lib/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/work_demo.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/base2.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="../../favicon.ico" />
+    <title>cwjie-作品收集</title>
+</head>
+<body>
+<div id="app">
+    <div class="checkout-title related"><span>作品展示</span></div>
+    <section class="related"  id="works">
+        <ul class="row" id="ViewRank">
+            <li class="col-lg-3 col-md-6  col-xs-12 react" v-for="(item,index) in filteAddressLimit">
+                <div class="box">
+                    <a class="link itemlink" @click="btnclick(item.content,index)" target="_blank">
+                        <img v-bind:src="item.img" width="215px" height="170" class="imgOpacity">
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="shipping-addr-more">
+            <a class="addr-more-btn up-down-btn" href="javascript:" @click="loadmore">
+                more
+                <i class="i-up-down">
+                    <i class="i-up-down-l"></i>
+                    <i class="i-up-down-r"></i>
+                </i>
+            </a>
+        </div>
+    <!--遮罩-->
+    </section>
+    <div class="fixedDetailBox"  v-bind:class="{'fixedDetailBox-show':confirmshow}" v-for="(item,index) in curproduct">
+        <div id="fixedDetail" style="transform: perspective(700px) rotateX(0deg);">
+            <div id="detailCloseLink" @click="confirmshow = false"></div>
+            <h5 id="DTitle">{{item.DTitle}}</h5>
+            <div id="detail">
+                <div id="detailWriting">
+                    <p id="character"><span>项目性质</span><b id="DCharacter">{{item.DCharacter}}</b></p>
+                    <p id="work"><span>负责工作</span><b id="DWork">{{item.DWork}}</b></p>
+                    <p id="technology"><span>应用技术</span><b id="DTechnology">{{item.DTechnology}}</b></p>
+                    <p id="explain"><span>项目概要</span><b id="DExplain">{{item.DExplain}}</b></p>
+                    <div id="btnToCodeOrEg">
+                        <a id="btnEg" :href="item.DSrc" target="item.Tget" v-bind:class="{'disabldClass':item.DSrc==flag,'allowClass':item.DSrc!=flag}" >在线预览</a>
+                    </div>
+                </div>
+                <div id="detailImg">
+                    <div class="slide-wrap">
+                        <span class="slide-pre" @click="slidePre">
+                        <i class="fa fa-chevron-left fa-fw icon-chevron-left"></i>
+                        </span>
+                        <span class="slide-next" @click="slideNext"><i class="fa fa-chevron-right fa-fw icon-chevron-right"></i></span>
+                        <ul class="sub-content clearfix">
+                            <li class="content-item" v-for="(itemImg,index) in item.DImg" v-show="index === currPage">
+                                <img  v-bind:src="itemImg._href" alt="" class="content-image" height ="260" >
+                            </li>
+                        </ul>
+                        <div class="btn-list">
+                            <ul class="dot-list">
+                                <li class="dot-item"> <span class="dot"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="time" >{{item.time}}</div>
+            <div id="detailLoading" style="opacity: 0; display: none;"><span></span>加载中 请稍候...</div>
+
+
+        </div>
+    </div>
+    <div class="next-btn-wrap"><a href="../../index.html" class="btn--red">返回首页</a></div>
+</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="../../js/vue-resource.js"></script>
+<script src="./js/index.js"></script>
+</html>

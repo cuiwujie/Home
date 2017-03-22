@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="崔武杰个人栈" />
+    <meta name="description" content="崔武杰个人栈" />
+    <meta name="author" content="cwjie" />
+    <link rel="stylesheet" href="css/lib/reset.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/icon" href="favicon.ico" />
+    <title>cwjie-Home</title>
+</head>
+<body>
+    <div id="app">
+        <div class="row">
+            <ul style="max-width:1020px;margin:80px auto;">
+                <li class="content " :class="item.classNum" v-for="(item, index) in addressList">
+                    <a v-bind:href="item._href">
+                        <h3 class="title">{{item.title}}<br></h3>
+                        <p class="sub">{{item.time}}</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="./js/vue-resource.js"></script>
+<script src="js/index.js"></script>
+
+</html>

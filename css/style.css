@@ -1,0 +1,53 @@
+body{
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.content-1{
+    background:#337AB7;
+}
+.content-2{
+    background:#5CB85C;
+}
+.content-3{
+    background:#5BC0DE;
+}
+.content-4{
+
+    background:#F0AD4E;
+}
+.content-5{
+    background:#D9534F;
+}
+.content-6{
+    background:#3A2C41;
+}
+.content-7{
+    background:#1C344F;
+}
+.content{
+    width:260px;
+    height:260px;
+    margin:20px;
+    border:1px solid #ccc;
+    box-shadow: 5px 6px 6px #ccc;
+}
+.row ul li{
+
+    float: left;
+    width: 16em;
+    height: 15em;
+    text-align: center;
+    padding: 1em;
+    margin: 0 1em 1em 0;
+
+}
+.row ul li a:link, .row ul li a:visited {
+    padding:15px;
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+}

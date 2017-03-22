@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ASmallCasedatajson/data.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/AsmallCase_demo.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/information_style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datajson/project.json" charset="UTF-8" />
+  </component>
+</project>

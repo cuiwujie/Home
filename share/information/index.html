@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="崔武杰个人栈" />
+    <meta name="description" content="崔武杰个人栈" />
+    <meta name="author" content="cwjie" />
+    <link href="../../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../css/Inf_style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="../../css/htmleaf-demo.css" />
+    <link rel="stylesheet" href="../../css/retruntop.css" />
+    <link rel="icon" type="image/icon" href="../../favicon.ico" />
+    <title>cwjie-个人信息</title>
+    <!---End-smoth-scrolling---->
+</head>
+<body>
+<div id="app"  ><!--start-header-section-->
+    <div v-for="(item, index) in addressList" >
+        <div class="header-section">
+            <div class="continer">
+                <img :src="item._img">
+                <h1>{{item._name}}<span>!</span></h1>
+                <p>{{item._describe}}</p>
+            </div>
+        </div>
+        <!--end header-section-->
+        <!--start-information-section-->
+        <div class="study-section">
+            <div class="container">
+                <div class="study-grids">
+                    <div class="col-md-6 study-grid">
+                        <h3>Personal information..<span>!</span></h3>
+                        <div class="study1" v-for="_pInfD in item._pInf">
+                            <p>{{_pInfD._describe}}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 study-grid">
+                        <h3>Self assessment..<span>!</span></h3>
+                        <div class="study2">
+                            <p>{{item._SelfAssessment}}</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--end study-section-->
+        <!--start-services-section-->
+        <div class="service-section">
+            <div class="social-icons" id="service">
+                <h3>Education background</h3>
+                <div class="container">
+                    <div class="col-md-12 face" v-for="_eduD in item._edu">
+                        <p>{{_eduD._describe}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="social-icons" id="Skills">
+                <h3>Skills</h3>
+                <div class="container">
+                    <div class="col-md-12 " v-for="_SkillsD in item._Skills">
+                        <p>{{_SkillsD._describe}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="social-icons" id="Project">
+                <h3>Project experience</h3>
+                <div class="container">
+                    <div class="col-md-12">
+                        <p>2016.07-2016.09</p>
+                        <p>--秦皇岛市中医医院个人健康监护与管理系统</p>
+                        <p>项目简介</p>
+                        <p class="item">通过与医院的系统的数据对接，将医院就诊患者的体检数据，病例数据，人体成分监测数据，中医体质监测数据，集成到系统中，供医生和患者在互联网端查看自己的相关信息。系统总体分为三个端，中心端，医生端，患者端。
+                        </p>
+                        <p>技术架构
+                        </p>
+                        <p class="item">项目前端采用基于Bootstrap作为前端模板，后端采用.Net MVC。同时集成，采用DataTable作为前端的表格插件,Highcharts作为系统的图表插件。
+                        </p>
+                        <hr/>
+                        <p>2016.10-2016.12
+                        </p>
+                        <p>--秦皇岛市老年大学学员课程报名系统
+                        </p>
+                        <p>项目简介
+                        </p>
+                        <p class="item">秦皇岛市老年大学学员课程报名系统为秦皇岛市老年大学学员开学报名所用，作为项目负责人，与其他四位成员共同完成，前期我负责进行需求调研，与老年大学方面进行沟通，中期负责开发系统设置模块，课程报名模块和财务缴费模块，以及成员间的交流，日程安排，以及前端页面的设计和后端数据库的设计，后期主要负责系统的维护工作。
+                        </p>
+                        <p>技术架构
+                        </p>
+                        <p class="item">项目前端采用基于Bootstrap作为前端模板，后端采用.Net MVC。主要用的前端技术有ajax数据调用，DataTable作为前端的表格插件等。
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="totop ">
+            <a title="添加微信公众号"  v-on:mouseleave="hiddenDetail"  v-on:mouseenter="showImgDetail"><img src="./img/mywechat.jpg" width="50">
+                <div class="HideImgDetail" v-bind:class="{'showImgDetail':Imgshow}"><img src="./img/mywechat.jpg"> </div>
+            </a>
+            <a title="跳转到微博" href="http://weibo.com/cwjiewb/" target="_blank" ><img src="./img/weibo.png"  width="50"></a>
+            <a title="返回首页" href="../../index.html"  ><img src="./img/toHome.jpg"  width="50"></a>
+            <a title="返回顶部" @click="returnTop"  ><img  class="HideImg" v-bind:class="{'showImg':totopshow}"src="../../img/scrollup.png" width="50"></a>
+        </div>
+</div>
+<div class="bottom">
+    <div class="bottom_c">
+        <div class="banquan">Copyright©2015 <span>崔武杰</span> by <span> http://cuiwujie.duapp.com/</span> 版权所有 <a href="https://github.com/cwjie0229" title="github" target="_blank"><img
+                src="./img/github.jpg" alt="" width="35"></a></div>
+    </div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="../../js/vue-resource.js"></script>
+<script src="js/index.js"></script>
+</html>

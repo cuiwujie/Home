@@ -1,0 +1,163 @@
+{
+  "list":[ {
+    "img":"img/peoject1.png",
+    "width": "215px",
+    "height": "183",
+    "class": "imgOpacity",
+    "content":[
+      {
+        "DTitle":"中科泰隆秦皇岛环保科技有限公司官网",
+        "DCharacter": "外包项目",
+        "DWork": "界面设计与图片处理、前端代码实现；同时参与数据库设计",
+        "DTechnology": "Asp.net、JQuery、HTML、CSS、Javascript",
+        "DExplain": "中科泰隆秦皇岛环保科技有限公司官网是为中科泰隆秦皇岛环保科技有限公司提供其官方产品的展示平台以及发布招聘人才的公告。",
+        "DSrc": "http://www.zktailong.com/",
+        "DImg": [
+          {"_href": "img/peoject1.png","_class":"cd-item-front"},
+          {"_href": "img/peoject11.png","_class":"cd-item-middle"},
+          {"_href": "img/peoject12.png","_class":"cd-item-back"},
+          {"_href": "img/peoject13.png","_class":"cd-item-out"}
+        ],
+        "DImgclass": "cd-item-front,cd-item-middle,cd-item-back,cd-item-out",
+        "Tget":"_blank",
+        "time":"2015年10月~2015年11月"
+      }
+    ]
+  },
+    {
+      "img":"img/peoject2.png",
+      "width": "215px",
+      "height": "183",
+      "class": "imgOpacity",
+      "content":[
+        {
+          "DTitle":"秦皇岛市人民防空办公室内网",
+          "DCharacter": "外包项目",
+          "DWork": "界面设计与图片处理、前端与后段代码实现；同时参与数据库设计",
+          "DTechnology": "Asp.net、JQuery、HTML、CSS、Javascript，Ajax以及Ajax数据分页调用",
+          "DExplain": "秦皇岛市人民防空办公室内网，主要用于秦皇岛人防办内部使用，不公开。主要的实现功能有：发布信息，通知，以及视频，以及提供文件下载等，和外网同时制作。",
+          "DSrc": "#",
+          "DImg":[
+            {"_href": "img/peoject2.png"},
+            {"_href": " img/rf22.png"},
+            {"_href": "img/rf23.png"},
+            {"_href": "img/rf24.png"},
+            {"_href": "img/rf25.png"}
+          ],
+          "DImgclass": "cd-item-front,cd-item-middle,cd-item-back,cd-item-out,cd-item-out",
+          "Tget":"_self",
+          "time":"2015年11月~2016年3月"
+
+        }
+      ]
+    }
+  ,
+    {
+      "img":"img/peoject3.png",
+      "width": "215px",
+      "height": "183",
+      "class": "imgOpacity",
+      "content":[
+        {
+          "DTitle":"秦皇岛市人防办外网及其移动端",
+          "DCharacter": "外包项目",
+          "DWork": " 界面设计与图片处理、前端与后段代码实现；同时参与数据库设计",
+          "DTechnology": "Asp.net、JQuery、HTML、CSS、Javascript，Ajax",
+          "DExplain": "秦皇岛市人民防空办公室外网，主要用于秦皇岛人防办外部使用，公开。主要的实现功能有：信息发布，以及交互功能的实现，后期因项目需求方变动计划，没能成功上线。",
+          "DSrc": "#",
+          "DImg": [
+            { "_href": "img/peoject3.png"},
+            {"_href": "img/rfw33.png"},
+            {"_href": "img/rfw34.png"},
+            {"_href": "img/rfw36.png"},
+            {"_href": "img/rfw37.png"}
+          ],
+          "DImgclass": "cd-item-front,cd-item-middle,cd-item-back,cd-item-out,cd-item-out",
+          "Tget":"_self",
+          "time":"2015年11月~2016年3月"
+        }
+      ]
+    }
+  ,
+    {
+      "img":"img/peoject4.png",
+      "width": "215px",
+      "height": "183",
+      "class": "imgOpacity",
+      "content":[
+        {
+          "DTitle":"深圳斯凯达控制技术有限公司能源app",
+          "DCharacter": "外包项目",
+          "DWork": "通过ajax远程从服务器端获取数据从而显示",
+          "DTechnology": "Asp.net、JQuery、Ajax，Android中的webview嵌套",
+          "DExplain": "主要用于讲web端的系统的数据做成移动端显示的，",
+          "DSrc": "#",
+          "DImg": [
+            {"_href": "img/peoject1.png"},
+            {"_href": "img/peoject11.png"},
+            {"_href": "img/peoject13.png"},
+            {"_href": "img/peoject13.png"
+          }],
+          "DImgclass": "cd-item-front,cd-item-middle,cd-item-back,cd-item-out",
+          "Tget":"_self",
+          "time":"2015年11月~2016年~月"
+        }
+      ]
+    }
+  ,
+    {
+      "img":"img/project5.png",
+      "width": "215px",
+      "height": "183",
+      "class": "imgOpacity",
+      "content":[
+        {
+          "DTitle":"秦皇岛市中医医院个人健康监护与管理系统",
+          "DCharacter": "外包项目",
+          "DWork": "该项目主要有四个端需要制作，分别为中心端，医生端，患者端以及门户网站，由三个人完成，我主要负责医生端和患者端，以及中心端的数据部分的界面设计与图片处理、前端与后段代码实现，以及整体项目的数据库设计，后续可能还会有移动端的制作。",
+          "DTechnology": "Asp.net、JQuery、HTML、CSS、Javascript、Ajax、DataTables | Table plug-in for jQuery、Date Range Picker for Bootstrap、以及Ajax数据分页调用",
+          "DExplain": "主要用于把患者的体检数据、病历数据、人体成分检测数据、中医体质检测数据集成到系统中方便医生、患者随时查看，并且医生可以针对每条数据提出建议，医患之间可以相互交流等，从而建立个人健康档案。",
+          "DSrc": "http://202.206.249.15:8888/HealthMonitor/common/default.aspx",
+          "DImg":[
+            {"_href": "img/project5.png"},
+            {"_href": "img/zyy3.png"},
+            {"_href": "img/zyy4.png"},
+            { "_href": "img/zyy5.png"},
+            {"_href": "img/zyy6.png"}
+          ],
+          "DImgclass": "cd-item-front,cd-item-middle,cd-item-back,cd-item-out,cd-item-out",
+          "Tget":"_blank",
+          "time":"2016年07月25日~2016年8月31日"
+
+        }
+      ]
+    }
+  ,
+    {
+      "img":"img/lndx1.png",
+      "width": "215px",
+      "height": "183",
+      "class": "imgOpacity",
+      "content":[
+        {
+          "DTitle":"秦皇岛市老年大学学员课程报名系统",
+          "DCharacter": "外包项目",
+          "DWork": "该项目主要有两个端需要制作，分别为中心端，学员端（web端，手机端），秦皇岛市老年大学学员课程报名系统为秦皇岛市老年大学学员开学报名所用，作为项目负责人，与其他四位成员共同完成，前期我负责进行需求调研，与老年大学方面进行沟通，中期负责开发系统设置模块，课程报名模块和财务缴费模块，以及成员间的交流，日程安排，以及前端页面的设计和后端数据库的设计，后期主要负责系统的维护工作。(可能会进行微信端开发)",
+          "DTechnology": "Asp.net、JQuery、HTML、CSS、Javascript、Ajax、DataTables | Table plug-in for jQuery、Date Range Picker for Bootstrap、以及Ajax数据分页调用",
+          "DExplain": "主要用于秦皇岛市老年大学学员进行报名登记录入信息,以及老年人可以在家中上网完成课程报名，解决老年人上老年大学报名难的问题。",
+          "DSrc": "http://www.秦皇岛市委老干部局.政务.cn/AdminLogin.aspx",
+          "DImg": [
+            {"_href": "img/lndx1.png"},
+            {"_href": "img/lndx2.png"},
+            {"_href": "img/lndx3.png"},
+            {"_href": "img/lndx4.png"},
+            {"_href": "img/lndx1.png"
+          }],
+          "DImgclass": "cd-item-front,cd-item-middle,cd-item-back,cd-item-out,cd-item-out",
+          "Tget":"_blank",
+          "time":"2016年09月30日~2016年12月20日"
+        }
+      ]
+    }
+  ]
+}

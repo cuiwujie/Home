@@ -1,0 +1,28 @@
+{
+  "list":[
+    {
+      "_name": "崔武杰",
+      "_img":"img/p1.png",
+      "_describe": "花逞春光， 一番雨，一番风， 终归尘土; 竹坚雅操， 几朝霜几朝雪， 傲就琅矸",
+      "_SelfAssessment":"本人是计算机技术专业学生，拥有良好的学习能力，能够不断的完善和发展自己，喜欢研究技术，吸收和学习各方面知识。富有团队精神，能够与团队充分配合，返回团队优势。积极向上，富有责任心。性格乐观开朗，热情大方，积极向上。",
+      "_pInf": [
+        {"_describe":"1992.01"},
+        {"_describe":"山西省忻州市"},
+        {"_describe":"15033355191"},
+        {"_describe":"cwj0229@outlook.com"}
+      ],
+      "_edu":[
+        {"_describe":"2011.06-2015.06 忻州师范学院 计算机科学与技术（本科）"},
+        {"_describe":"2015.09-2018.06 燕山大学 计算机技术（研究生）"}
+      ],
+      "_Skills": [
+        {"_describe":"1. 熟悉HTML,JS,和CSS，以及CSS3和H5的新特性,熟练掌握DOM、BOM、AJAX、JSON。热衷研究原生js。"},
+        {"_describe":"2. 熟练使用JQuery,Bootstrap框架，能够基于Bootstrap做布局和开发页面。曾阅读过jQuery的部分源码， 能够自己独立封装出jQuery的一些常用功能"},
+        {"_describe":"3. 熟悉vue及其组件生命周期方法，能够使用vue进行web开发"},
+        {"_describe":"4. 熟练使用DataTable和Highchart图表可视化等前端插件。"},
+        {"_describe":"5. 掌握.Net MVC后端开发语言,了解PHP后端开发语言，能够用.Net MVC进行后端模块的开发和设计。"},
+        {"_describe":"6. 了解Node.js的基本用法和ES6基本语法，能够使用git和webpack2对项目代码进行管理。"}
+      ]
+    }
+  ]
+}
