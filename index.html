@@ -14,15 +14,17 @@
 </head>
 <body>
     <div id="app">
-        <div class="row">
-            <ul style="max-width:1020px;margin:80px auto;">
-                <li class="content " :class="item.classNum" v-for="(item, index) in addressList">
-                    <a v-bind:href="item._href">
-                        <h3 class="title">{{item.title}}<br></h3>
-                        <p class="sub">{{item.time}}</p>
-                    </a>
-                </li>
-            </ul>
+        <div class="container" style="margin-top:88px;">
+            <div class="row" style="margin:0 auto;">
+                <ul class="col-lg-12" style="max-width:1020px;text-align: center;margin:0 auto;">
+                    <li class="content " :class="item.classNum" v-for="(item, index) in addressList">
+                        <a v-bind:href="item._href">
+                            <h3 class="title">{{item.title}}<br></h3>
+                            <p class="sub">{{item.time}}</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
