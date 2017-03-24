@@ -378,6 +378,10 @@ i.beh {
 }
 }
 @media only screen and (max-width: 768px){
+
+    #Project,.bottom{
+        display:none;
+    }
 .header-section {
    min-height: 472px;
 }
@@ -408,7 +412,6 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-size: 1.1em;
 }
 .service-section {
-  text-align: center;
   padding: 3em 0;
 }
 .service-grid {
@@ -460,6 +463,7 @@ i.google {
   margin: 0 8px;
   background-size: 410px;
 }
+
 i.beh {
   width: 52px;
   height: 52px;
