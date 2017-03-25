@@ -46,6 +46,12 @@
       "_bordercolor": "#AB2418",
       "_title":"vue2.0购物车以及地址栏变化",
       "_href":"https://github.com/cwjie0229/Vue2.0-shoppingCart"
+    },
+    {
+      "_src":"img/9.png",
+      "_bordercolor": "#9E1E18",
+      "_title":"移动端的手势密码",
+      "_href":"https://cwjie0229.github.io/GesturesPassword/"
     }
   ]
 }
